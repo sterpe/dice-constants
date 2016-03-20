@@ -1,0 +1,31 @@
+{
+  "name": "dice-constants",
+  "version": "0.1.0",
+  "description": "Constants for dice expression tokenizers.",
+  "main": "dist/index.js",
+  "scripts": {
+    "make": "make $@",
+    "precommit": "make test",
+    "test": "make test"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-jest": "^6.0.1",
+    "babel-preset-es2015": "^6.5.0",
+    "husky": "^0.11.1",
+    "jasmine-reporters": "^1.0.2",
+    "jest-cli": "^0.9.0",
+    "standard": "^6.0.5"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sterpe/dice-constants.git"
+  },
+  "author": "sterpe <srterpe@gmail.com> (https://github.com/sterpe)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sterpe/dice-constants/issues"
+  },
+  "homepage": "https://github.com/sterpe/dice-constants#readme"
+}
