@@ -1,9 +1,5 @@
-const OPERATOR = 'OPERATOR'
-const DIE = 'DIE'
-const LITERAL = 'LITERAL'
+'use strict'
 
-module.exports = {
-  OPERATOR,
-  DIE,
-  LITERAL
-}
+module.exports.OPERATOR = 'OPERATOR'
+module.exports.DIE = 'DIE'
+module.exports.LITERAL = 'LITERAL'
