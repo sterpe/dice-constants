@@ -11,6 +11,11 @@ npm i --S dice-constants
 
 ### usage
 ```
+var DICE_CONSTANT = require('dice-constants')
+
+DICE_CONSTANT.OPERATOR // 'OPERATOR'
+DICE_CONSTANT.DIE // 'DIE'
+DICE_CONSTANT.LITERAL // 'LITERAL'
 ```
 
 ## How do I work on it?
@@ -22,10 +27,6 @@ cd dice-constants
 make
 ```
 
-### build
-```
-make build
-```
 ### test
 ```
 make JEST_FLAGS=--coverage test
