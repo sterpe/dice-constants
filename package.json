@@ -1,6 +1,6 @@
 {
   "name": "dice-constants",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Constants for dice expression tokenizers.",
   "main": "index.js",
   "scripts": {
